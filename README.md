@@ -32,11 +32,10 @@ This repository is for VisionRD Hackathon
  and *modifying* the dla provided **arch/backbone/dla.py** backbone architecture.
 
 ### Data Preprocessing
- Here are the techniques used for the data preprocessing
+ The frames given are resized according to the sizes and is normalized mentioned in the **dataloader/dataset.yml**
 
 ### Features
-- Regression model
-- Real-time price predictions on housing related features.
+- 
 
 ### Technologies Used
 
