@@ -6,12 +6,11 @@ This repository is for VisionRD Hackathon
 2. [Solution Description](#SolutionDescription)
 3. [Approach](#Approach)
 4. [Data Preprocessing](#DataPreprocessing)
-5. [Features](#Features)
-6. [Technologies Used](#TechnologiesUsed)
-7. [Installation and Running](#installationandrunning)
-8. [Usage](#Usage)
-9. [Demo](#InteractiveDemo)
-10. [Contact](#Contact)
+5. [Technologies Used](#TechnologiesUsed)
+6. [Installation and Running](#installationandrunning)
+7. [Usage](#Usage)
+8. [Demo](#InteractiveDemo)
+9.. [Contact](#Contact)
    
    
 
@@ -34,8 +33,6 @@ This repository is for VisionRD Hackathon
 ### Data Preprocessing
  The frames given are resized according to the sizes and is normalized mentioned in the **dataloader/dataset.yml**
 
-### Features
-- 
 
 ### Technologies Used
 
