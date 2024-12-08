@@ -23,6 +23,7 @@ The task involves predicting actions, bounding boxes, and keypoints in the GTEA 
 The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
 - **Neck:** Added layers for further feature processing.
 - **Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
+  
 The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation using dataloader/dataloader.py.
 
 
@@ -46,7 +47,7 @@ Here are the techniques used for the data preprocessing
 
 ### Installation and running
 1.Install dependencies:
-   pip install -r requirements.txt
+``pip install -r requirements.txt
    
 2. Run the arch/model.py 
    
@@ -66,7 +67,9 @@ Try the live version of the house price prediction model here:
 [Live Demo](https://example.com)
 
 ### Contact
+- [Ali Abbas Baig](mailto:)
 - [Syeda Aiman Mumtaz Sherazi](mailto:aimanmumtaz27@gmail.com)
+- [Muhammad anas](mailto:)
   
 ### Tensorboard screenshots 
 
