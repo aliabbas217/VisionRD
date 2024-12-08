@@ -21,7 +21,7 @@ This repository is for VisionRD Hackathon
 
 ### Solution Description
 
- The DLA60 pre-trained model is used as the backbone for classification. The architecture built manually includes:
+ The DLA60 pre-trained model is used with modifications done as the backbone for classification. The architecture built manually includes:
    - **Neck:** Added layers for further feature processing.
    - **Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
      
