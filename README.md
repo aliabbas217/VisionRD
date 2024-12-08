@@ -59,7 +59,7 @@ This repository is for VisionRD Hackathon
        python
       python train.py 
 2. **Making Predictions**: After training, use the following code to make predictions on new medical images:
-      ```import pandas as pd
+      import pandas as pd
       
 
 ### Interactive Demo
