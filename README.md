@@ -10,7 +10,7 @@ This repository is for VisionRD Hackathon
 6. [Installation and Running](#installationandrunning)
 7. [Usage](#Usage)
 8. [Demo](#InteractiveDemo)
-9.. [Contact](#Contact)
+9.  [Contact](#Contact)
    
    
 
