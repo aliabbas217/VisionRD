@@ -16,11 +16,14 @@ This repository is for VisionRD Hackathon
    
 
 ### Problem Statement
-Pridicting the action, bounding boxes, keypoints on the gtea data through supervised learning .
+The task involves predicting actions, bounding boxes, and keypoints in the GTEA dataset using supervised learning.
 
 
 ### Solution Description
-The model used is dla60 for the classification, with backbone used of this pre-trained model  with the neck and heads created manually as in arch/model.py.The neck containing the 3 more layers and the each head for action, bounding boxes, keypoints , mode . The action data and the annotation data is merged in a json file through xml_to_coco.py.These catergories are then extracted individually from the data ad in dataloader/CustomImageDataset.py and stored separately .The transformations are applied on them in dataloader/dataloader.py.
+The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
+**Neck:** Added layers for further feature processing.
+**Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
+The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation using dataloader/dataloader.py.
 
 
 ### Approach
