@@ -21,15 +21,15 @@ This repository is for VisionRD Hackathon
 
 ### Solution Description
 
- The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
+ The DLA60 pre-trained model is used as the backbone for classification. The architecture built manually includes:
    - **Neck:** Added layers for further feature processing.
    - **Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
      
- The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation      using dataloader/dataloader.py.
-
 
 ### Approach
- We used a linear regression model to predict the house prices based on the selected features. The dataset was preprocessed to handle missing values, and a simple train-test split was     applied for evaluation. We focused on the relationship between key features like area, bedrooms, and bathrooms to predict the target variable—house price.
+ We *merged* the action and annotation data in a json file using the **utils/xml2coco.py** and *extracted* the annotations' individual categories i.e the bounding boxes,keypoints,modes 
+ by *coding* CustomImageDataset.py. The data is then *transformed* and with *measuring losses* and *optimization* by adam in **loop.py** .And the *necks and heads* are built with using 
+ and *modifying* the dla provided **arch/backbone/dla.py** backbone architecture.
 
 ### Data Preprocessing
  Here are the techniques used for the data preprocessing
