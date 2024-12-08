@@ -21,8 +21,8 @@ The task involves predicting actions, bounding boxes, and keypoints in the GTEA 
 
 ### Solution Description
 The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
-**Neck:** Added layers for further feature processing.
-**Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
+- **Neck:** Added layers for further feature processing.
+- **Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
 The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation using dataloader/dataloader.py.
 
 
