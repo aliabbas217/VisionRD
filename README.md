@@ -46,9 +46,8 @@ Here are the techniques used for the data preprocessing
 - **TensorBoard**
 
 ### Installation and running
-1.Install dependencies:
-``pip install -r requirements.txt
-   
+1. Install dependencies:
+   pip install -r requirements.txt
 2. Run the arch/model.py 
    
 
