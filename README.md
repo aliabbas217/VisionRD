@@ -16,22 +16,23 @@ This repository is for VisionRD Hackathon
    
 
 ### Problem Statement
-   The task involves predicting actions, bounding boxes, and keypoints in the GTEA dataset using supervised learning.
+ The task involves predicting actions, bounding boxes, and keypoints in the GTEA dataset using supervised learning.
 
 
 ### Solution Description
-   The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
+
+ The DLA60 pre-trained model is used as the backbone for classification. The architecture also includes:
    - **Neck:** Added layers for further feature processing.
    - **Heads:** Different heads are created for specific tasks such as predicting actions, bounding boxes, keypoints, and modes.
      
-   The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation      using dataloader/dataloader.py.
+ The action and annotation data are merged using a custom script (xml_to_coco.py) and extracted into individual categories by CustomImageDataset.py. The data undergoes transformation      using dataloader/dataloader.py.
 
 
 ### Approach
-   We used a linear regression model to predict the house prices based on the selected features. The dataset was preprocessed to handle missing values, and a simple train-test split was     applied for evaluation. We focused on the relationship between key features like area, bedrooms, and bathrooms to predict the target variable—house price.
+ We used a linear regression model to predict the house prices based on the selected features. The dataset was preprocessed to handle missing values, and a simple train-test split was     applied for evaluation. We focused on the relationship between key features like area, bedrooms, and bathrooms to predict the target variable—house price.
 
 ### Data Preprocessing
-   Here are the techniques used for the data preprocessing
+ Here are the techniques used for the data preprocessing
 
 ### Features
 - Regression model
@@ -52,7 +53,7 @@ This repository is for VisionRD Hackathon
    
 
 ### Usage
-   How to run the project once it’s set up. This could include training the model, making predictions, and interacting with any interface
+ How to run the project once it’s set up. This could include training the model, making predictions, and interacting with any interface
 1. **Training the Model:**
       To train the model, run:
        python
@@ -62,7 +63,7 @@ This repository is for VisionRD Hackathon
       
 
 ### Interactive Demo
-   Try the live version of the house price prediction model here: 
+ Try the live version of the model here: 
 [Live Demo](https://example.com)
 
 ### Contact
